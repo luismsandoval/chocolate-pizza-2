@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 901px;
+  margin: 40px auto;
+}
+
+header img {
+  float: left;;
+}
+
+header div div {
+  position: relative;
+  left: 5px;
+}
+
+header h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-small;
+}
+
+nav {
+  float: right;
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+}
+
+nav img {
+  margin: 0px 1px;
+}
+
+nav a:nth-child(7) {
+  position: relative;
+  left: 8px;
+}
+
+nav a:nth-child(8) {
+  position: relative;
+  left: 8px;
+}
+
+main {
+  margin: 70px auto;
+}
+
+main h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+main h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-small;
+}
+
+main a:first-of-type {
+  float: right;
+  position: relative;
+  bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+  font-size: x-small;
+}
+
+#hero {
+  margin: 20px auto;
+}
+
+.para {
+  margin: 10px auto;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-indent: 45px;
+  font-size: 18px;
+}
+
+ul {
+  background-image: url("../img/list-bg.png");
+  height: 300px;
+  margin: 30px auto;
+  list-style: square;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: auto;
+  width: 400px;
+  text-align: left;
+  font-family: 'Comic Sans MS', cursive;
+  color: rgb(75, 75, 75);
+  position: relative;
+  left: 45px;
+}
+
+main img:nth-of-type(2) {
+  float: left;
+  margin-right: 30px;
+}
+
+main h3:nth-of-type(2) {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+main h3:nth-of-type(2) + p {
+  width: 670px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+main a:nth-of-type(2) {
+  float: right;
+  background-color: #b42a00;
+  color: white;
+  padding: 20px 30px;
+  text-decoration: none;
+  position: relative;
+  bottom: 40px;
+}
+
+footer {
+  height: 100px;
+}
+
+footer img {
+  margin: auto 435px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  text-align: center;
+  font-size: small;
+  color: grey;
+  margin-bottom: 5px;
+}
